@@ -11,8 +11,10 @@ A [make.fun](https://make.fun/bounty/u-eager-stork-81-9647-fortune-cookie-funnie
 trailing newline.
 
 The fortune stacks three punchlines on the classic "lucky numbers"
-guardrail: 404, then 500, then the line number of the bug you shipped
-at 3 a.m.
+guardrail: 418, then 429, then the port you left open in prod —
+and the twist is that your "lucky" numbers are all error codes
+and your own open port, so the cookie ends with an ironic
+"Good luck — you'll need it."
 
 ## Run
 

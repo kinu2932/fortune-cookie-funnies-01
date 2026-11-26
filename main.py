@@ -8,8 +8,10 @@ import os
 
 # Skeleton: three punchlines stacked on one guardrail pattern —
 # the classic fortune-cookie "lucky numbers" opener, escalating
-# 404 -> 500 -> the line number of the bug you shipped at 3 a.m.
-JOKE = "Your lucky numbers are 404, 500, and the line number of the bug you shipped at 3 a.m."
+# 418 (teapot) -> 429 (too many requests) -> the port you left
+# open in prod. The twist: your "lucky" numbers are all error
+# codes and your own open port — the cookie is cursing you.
+JOKE = "Your lucky numbers are 418, 429, and the port you left open in prod. Good luck — you'll need it."
 
 
 def main() -> None:
